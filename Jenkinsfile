@@ -12,6 +12,8 @@ node {
          * docker build on the command line */
 
         app = docker.build("djboot")
+        app = docker.build("djboot33")
+        app = docker.build("bpmnman/champ")
     }
 
     stage('Test image') {

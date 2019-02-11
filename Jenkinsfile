@@ -11,6 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
+
         app = docker.build("djboot")
         app = docker.build("djboot33")
         app = docker.build("bpmnman/champ")
@@ -21,7 +22,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            sh 'echo "Tests passed"'
+            sh 'echo "Tests passed all"'
         }
     }
 

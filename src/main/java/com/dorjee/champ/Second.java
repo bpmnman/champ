@@ -1,4 +1,4 @@
 package com.dorjee.champ;
 
-public class Second {
+public interface Second {
 }

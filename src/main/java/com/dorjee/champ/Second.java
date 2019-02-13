@@ -5,4 +5,5 @@ public interface Second {
      String getName();
      String getAddress();
      int getNumber();
+     String getCard();
 }

@@ -7,4 +7,5 @@ public interface Second {
      String getCard();
      int getLottery();
      String getStreet();
+     int getAvenueNumber();
 }

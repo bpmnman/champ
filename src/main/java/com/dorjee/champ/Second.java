@@ -4,4 +4,5 @@ public interface Second {
      int getPhone();
      String getName();
      String getAddress();
+     int getNumber();
 }

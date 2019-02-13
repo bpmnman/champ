@@ -6,4 +6,5 @@ public interface Second {
      String getCard();
      int getLottery();
      String getRoad();
+     int getHer();
 }

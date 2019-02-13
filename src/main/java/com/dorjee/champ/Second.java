@@ -6,6 +6,4 @@ public interface Second {
      int getNumber();
      String getCard();
      int getLottery();
-     String getStreet();
-     int getAvenueNumber();
 }

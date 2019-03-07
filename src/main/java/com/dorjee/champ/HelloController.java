@@ -10,6 +10,7 @@ public class HelloController {
         int count = 3;
         String name = "dorjee";
         String home = "going home";
+        String message = "super shure";
         return "Greetings rom Spring Boot!";
     }
 }

@@ -9,6 +9,7 @@ public class HelloController {
     public String index() {
         int count = 3;
         String name = "dorjee";
+        String home = "going home";
         return "Greetings rom Spring Boot!";
     }
 }

@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/")
     public String index() {
+        int count = 3;
         return "Greetings rom Spring Boot!";
     }
 }

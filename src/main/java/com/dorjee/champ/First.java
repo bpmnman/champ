@@ -6,5 +6,6 @@ public class First {
     private String age;
     private String city;
     private int phone;
+    private int pincode;
 
 }

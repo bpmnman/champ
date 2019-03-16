@@ -5,4 +5,7 @@ public class First {
     private String name;
     private String age;
     private String city;
+    private int phone;
+    private int pincode;
+
 }
